@@ -65,21 +65,21 @@ footer{
     max-width: 2048px;
     box-shadow: 0 3px 3px rgba(66,66,66,0.3);
 }
-.homehero{
+#homehero{
  height: 300px;
- background-image: url(utahtechimages/facultyhero.jpg);
+ background-image: url(utahtechimages/homehero.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;   
 }
-.studenthero{
+#studenthero{
     height: 300px;
     background-image: url(utahtechimages/studenthero.jpg);
     background-size: cover;
     background-repeat: no repeat;
     background-position: center;
 }
-.facultyhero{
+#facultyhero{
     height: 300px;
     background-image: url(utahtechimages/facultyhero.jpg);
     background-size: cover;
