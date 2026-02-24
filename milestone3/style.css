@@ -1,0 +1,36 @@
+#wrapper{
+    display: grid;
+    grid-auto-rows: minmax(0, auto);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+header {
+    height: 150px;
+    background-color: bisque;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+nav{
+    height: 100px;
+    background-color: aquamarine;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+}
+.hero{
+    height: 400px;
+    grid-row: 3/4;
+    grid-column: 2/-2;
+    background-color: blueviolet;
+}
+main{
+    height: 300px;
+    grid-row:4/4;
+    grid-column: 1/-1;
+    background-color: brown;
+
+}
+footer{
+    height: 80px;
+    grid-row: 5/5;
+    grid-column: 1/-1;
+    background-color: blue;
+}
