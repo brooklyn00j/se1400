@@ -147,20 +147,20 @@ nav ul li {
     #square3{
     grid-row:3/4;
     grid-column:1/-1 ;
-}
-.hero{
+    }
+    .hero{
     height: auto;
-}
-.text{
+    }
+    .text{
     flex-direction: column;
-}
-.text img{
+    }
+    .text img{
     width:100%;
-}
-footer{
+    }
+    footer{
     flex-direction: column;
     text-align: center;
     align-items: center;
-}
+    }
 }
        
