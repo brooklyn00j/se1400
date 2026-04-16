@@ -32,9 +32,9 @@ nav{
    margin:0 auto;
     grid-row: 2/3;
     grid-column: 1/-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.abouthero {
+    height:142px;
 }
 .container {
     width: 90%;
@@ -132,6 +132,14 @@ nav ul li {
     margin: 0px 30px 0px 30px;
     font-size: 30px;
 }
+.abouttext h6{
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+.abouttext{
+    color: white;
+}
+
 .text img{
     width:50%;
     margin: 30px 20px 30px 20px;
@@ -149,7 +157,9 @@ div.gallery-item {
   padding: 50px;
   background-color: white;
 }
-
+div.gallery-item h1, h2, h3 {
+    text-align: center;
+}
 
 div.gallery-item img {
   width: 100%;
@@ -166,6 +176,13 @@ form{
     grid-template-columns: 200px 1fr;
     gap: 0.75rem;
     width: 100%;
+}
+input, textarea{
+    border:0;
+    background-color: #eee;
+}
+label {
+    text-align: center;
 }
 @media screen and (max-width: 992px){
     #wrapper{
